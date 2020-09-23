@@ -227,8 +227,8 @@ The test mode does not use hints and reinforcements, the therapist should refrai
     <string name="level_name_validation_too_long">Name of the level should be shorter - max 55 characters</string>
     <string name="level_name_validation_too_short">Name of the level should contain at least one character</string>
 
-    <string name="both_sexes_material">Photos in the MATERIAL tab should represent people of both genders</string>
-    <string name="both_sexes_test">Photos in the TEST tab should represent people of both genders</string>
+    <string name="both_sexes_material">Photos in the MATERIAL tab, for each of the emotions, should represent people of both genders</string>
+    <string name="both_sexes_test">Photos in the TEST, for each of the emotions, tab should represent people of both genders</string>
     <string name="less_photos_than_chosen_amount_female_learn">LEARN MODE: Unless you select at least one female photograph for this number of different emotions, smaller number of photographs will be displayed on the screen. Are you willing to save?</string>
     <string name="less_photos_than_chosen_amount_male_learn">LEARN MODE: Unless you select at least one female photograph for this number of different emotions, smaller number of photographs will be displayed on the screen. Are you willing to save?</string>
 

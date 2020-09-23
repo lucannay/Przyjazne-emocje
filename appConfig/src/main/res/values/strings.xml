@@ -213,8 +213,8 @@
     <string name="empty_photos_test_mode">Wybierz zdjęcia w zakładce TEST</string>
     <string name="level_name_validation_too_long">Nazwa poziomu powinna być krótsza - maksymalnie 55 znaków</string>
     <string name="level_name_validation_too_short">Nazwa poziomu powinna zawierać conajmniej jeden znak</string>
-    <string name="both_sexes_material">Zdjęcia w zakładce MATERIAŁ powinny przedstawiać osoby obydwu płci</string>
-    <string name="both_sexes_test">Zdjęcia w zakładce TEST powinny przedstawiać osoby obydwu płci</string>
+    <string name="both_sexes_material">Zdjęcia w zakładce MATERIAŁ, dla każdej z emocji, powinny przedstawiać osoby obydwu płci</string>
+    <string name="both_sexes_test">Zdjęcia w zakładce TEST, dla każdej z emocji,  powinny przedstawiać osoby obydwu płci</string>
     <string name="chosen_amount">Wybrana liczba zdjęć wyświetlanych na ekranie to: </string>
 
     <string name="less_photos_than_chosen_amount_female_test">TRYB TESTU: Jeśli nie wybierzesz po conajmniej jednym zdjęciu kobiety dla takiej liczby różnych emocji, na ekranie zostanie wyświetlona mniejsza liczba zdjęć. Czy na pewno zapisać?</string>

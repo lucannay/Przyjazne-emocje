@@ -164,7 +164,7 @@ public class LevelValidator extends AppCompatActivity {
                     }
                     curEmotion.close();
                 }
-                mode++;
+                //mode++;
             }
 
             if (womanPhotos < numberOfPhotosDisplayed && womanPhotos != 0) {
