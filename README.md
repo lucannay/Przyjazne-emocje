@@ -3,9 +3,15 @@ Supporting system of behavioral therapy of people with autism
 
 More info available: [Autyzm PG web page](http://autyzm.eti.pg.gda.pl/)
 
-![Screenshot](/doc/views/config1-material.png)
-![Screenshot](/doc/views/config2-sposoby_uczenia.png)
-![Screenshot](/doc/views/config3-wzmocnienie.png)
-![Screenshot](/doc/views/config4-test.png)
+  Friendly emotions settings
 
-![Screenshot](/doc/views/game.jpg)
+![Screenshot](/doc/views/MAIN_SCREEN.png)
+![Screenshot](/doc/views/TAB1.png)
+![Screenshot](/doc/views/TAB3.png)
+![Screenshot](/doc/views/TAB4.png)
+![Screenshot](/doc/views/TAB5.png)
+
+   Friendly emotions
+
+![Screenshot](/doc/views/LEARN.jpg)
+![Screenshot](/doc/views/TEST.jpg)
