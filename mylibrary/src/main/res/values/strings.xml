@@ -1,0 +1,11 @@
+<resources>
+
+    <string-array name="praise__array">
+        <item>dobrze</item>
+        <item>super</item>
+        <item>świetnie</item>
+        <item>ekstra</item>
+        <item>wspaniale</item>
+    </string-array>
+
+</resources>

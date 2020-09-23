@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foregroundGravity="center_vertical|center|center_horizontal"
+    android:gravity="center|center_horizontal|center_vertical"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/take_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="40dp"
+        android:text="@string/takeAPhoto"
+        android:textColor="#1A2A80"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView_emotions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:foregroundGravity="center_vertical|clip_horizontal"
+        android:gravity="clip_horizontal|center_horizontal"
+        android:paddingTop="10dp"
+        android:text="@string/sex"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextBack"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinner_sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:entries="@array/sex"
+        android:foregroundGravity="center_vertical|clip_horizontal|center_horizontal"
+        android:gravity="clip_horizontal|center|center_horizontal|center_vertical"
+        android:paddingTop="10dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        android:fontFamily="sans-serif-medium"
+        android:foregroundGravity="clip_horizontal"
+        android:gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:text="@string/InPhoto"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextBack"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinner_emotions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="clip_horizontal|center|center_horizontal|center_vertical"
+        android:foregroundGravity="center_vertical|clip_horizontal|center|center_horizontal"
+        android:gravity="clip_horizontal|center|center_horizontal|center_vertical"
+        android:paddingTop="10dp"
+        android:textAlignment="center" />
+
+    <ImageButton
+        android:id="@+id/button_take_photo"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:background="@null"
+        android:paddingTop="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/icon_camera" />
+
+
+</LinearLayout>

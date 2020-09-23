@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_screen"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/topLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <pg.smile.Camera.CameraSourcePreview
+            android:id="@+id/preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <pg.smile.Camera.GraphicOverlay
+                android:id="@+id/faceOverlay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </pg.smile.Camera.CameraSourcePreview>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/headImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/crown"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/hatImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/hat"
+        android:visibility="invisible" />
+
+    <!--
+    <ImageView
+        android:id="@+id/greenBalloon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/balloon_green"
+        android:visibility="invisible"
+        -->
+
+
+    <ImageView
+        android:id="@+id/smileImage"
+        android:layout_width="180dp"
+        android:layout_height="1000dp"
+        android:layout_alignEnd="@id/topLayout"
+        android:paddingLeft="16dp"
+        android:src="@drawable/happy_person" />
+
+</RelativeLayout>

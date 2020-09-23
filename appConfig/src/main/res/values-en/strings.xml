@@ -1,0 +1,249 @@
+<resources>
+
+    <string name="intro_FriendlyEmotions">Friendly Emotions Settings</string>
+    <string name="intro_short">Recognition of emotions based on photos and icons - configuration</string>
+    <string name="intro_description">
+                The applications are developed under a non-profit and open-source project
+                held by Gdansk University of Technology (website) and Institute for Child
+                Development in Gdansk (website).
+                \nThe apps are developed and distributed free of charge.
+                \nMore information on the website: https://tiapps.org/en/home/
+    </string>
+    <string name="intro_instruction">For proper use you need a pair of applications: Friendly Emotions and Friendly Emotions Settings!</string>
+
+    <string name="generated_name">Name got updated - check if change is suitable in the SAVE tab</string>
+    <string name="check_name">Check if name should not get updated</string>
+    <string name="duplicated_name">Such step name already exists, change it</string>
+
+    <string name="level_removal">Level removal</string>
+    <string name="confirm_removal">Are you sure you want to delete?</string>
+    <string name="cancel_removal">No, do not delete.</string>
+    <string name="ok_removal">Yes, delete.</string>
+
+    <string name="activityChoice_configurations">CONFIGURATIONS</string>
+    <string name="activityChoice_material">ADD MATERIAL</string>
+
+    <string name="activate">ACTIVATE A LEVEL YOU WANT TO LAUNCH IN THE GAME</string>
+
+
+    <string name="takeAPhoto">Take a photo :)</string>
+
+    <string name="testMode">TEST MODE</string>
+    <string name="learnMode">LEARN MODE</string>
+    <string name="test_mode">Test Mode</string>
+    <string name="learn_mode">Learn Mode</string>
+    <string name="seconds"> seconds </string>
+    <string name="after_seconds"> seconds </string>
+
+    <string name="test_no_photos">Number of chosen pictures: </string>
+    <string name="test_time_for_answer">Answer time limit: </string>
+    <string name="test_tries">Number of tries:</string>
+
+    <string name="show">Show  </string>
+    <string name="find">Find</string>
+    <string name="touch">Touch</string>
+    <string name="point">Point</string>
+    <string name="selectConf">Select</string>
+
+
+    <string name="save_and_exit">Save and exit</string>
+    <string name="picture_activity_delete">Delete photo</string>
+    <string name="picture_activity_another">Save and take another photo</string>
+    <string name="camera_activity_take_photo">Take a photo</string>
+    <string name="camera_activity_switch_camera">Switch camera</string>
+    <string name="camera_activity_exit">Exit</string>
+
+
+    <string name="newPhoto">Take a new photo</string>
+    <string name="label_choose_images">Choose</string>
+    <string name="title_choose_img">Test Mode - Choose pictures</string>
+    <string name="default_message">No pictures selected</string>
+    <string name="default_level_generate_message">A default step was generated for happy and sad</string>
+    <string name="save_message">Step saved</string>
+    <string name="select">select</string>
+    <string name="pv_per_level">Pictures per level</string>
+    <string name="time_limit">Time Limit</string>
+    <string name="label_emotion">Learn emotions:</string>
+    <string name="level_name">New step</string>
+    <string name="label_level_name">Step name: </string>
+    <string name="label_level_list">Levels list: </string>
+    <string name="active">active </string>
+    <string name="amountOfAllowedTriesForEachEmotion">Correctness</string>
+    <string name="sublevelsPerEachEmotion">Sublevels</string>
+    <string name="language_choice">Choose language:</string>
+    <string name="level_easy_photos">Happy/sad PHOTOS</string>
+    <string name="level_easy_icons">Happy/sad ICONS</string>
+    <string name="level_medium">Happy/sad/scared/angry</string>
+    <string name="level_hard">Happy/sad/scared/angry/bored/surprised</string>
+    <string name="selected_language">Language already selected!</string>
+    <string name="app">Smile :)</string>
+    <string name="hide_levels">Hide default levels</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+
+    <string-array name="spinner">
+        <item>Photos</item>
+        <item>Videos</item>
+    </string-array>
+
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    <string name="app_name">Friendly Emotions Settings</string>
+    <string name="next">next</string>
+    <string name="back">back</string>
+
+    <string name="tab1_material">Material</string>
+    <string name="label0_material">Number of chosen pictures: </string>
+    <string name="label1_material">Number of learned emotions:</string>
+    <string name="label2_material">Learned emotions:</string>
+
+    <string name="tab2_learning_ways">Learning ways</string>
+    <string name="label1_learning_ways">Sample settings</string>
+    <string name="label1_1_learning_ways">Number of pictures displayed:</string>
+    <string name="label1_2_learning_ways">Number of repetitions for each emotion:</string>
+    <string name="label2_learning_ways">Step settings</string>
+    <string name="label2_1_learning_ways">Command:</string>
+    <string-array name="spinner_command">
+        <item>[Name of emotion]</item>
+        <item>Choose [Name of emotion]</item>
+        <item>Choose where is [Name of emotion]</item>
+    </string-array>
+    <string name="label2_0_learning_ways_opcja1">The same gender in the set of answers </string>
+    <string name="label2_0_learning_ways_opcja2">Mixed gender in the set of answers</string>
+    <string name="label2_2_learning_ways">Read the command:</string>
+    <string name="label2_3_learning_ways">Differentiation of sexes</string>
+    <string name="label2_4_learning_ways">Show prompt after:  </string>
+    <string name="label2_5_learning_ways">Choose type of the prompt:</string>
+    <string name="label2_6_learning_ways">Prompts: </string>
+    <string name="prompt_type1">Frame the correct one</string>
+    <string name="prompt_type2">Enlarge the correct one</string>
+    <string name="prompt_type3">Move the correct one</string>
+    <string name="prompt_type4">Gray out the incorrect ones</string>
+
+    <string name="tab3_consolidation">Reinforcement</string>
+    <string name="label1_consolidation">Verbal praises: </string>
+    <string name="label1.1_consolidation">Write in a new praise</string>
+    <string name="button1_consolidation">Select all</string>
+
+    <string name="tab4_test">Test</string>
+    <string name="label1.1_test">Active materials</string>
+    <string name="the_same_material">I would like to use the same photos that are in the MATERIAL tab</string>
+    <string name="the_same_material_info">Select the material to be used in test mode."</string>
+    <string name="the_same_material_btn">Select</string>
+    <string name="label1.2_test">Number of tries for each emotion</string>
+    <string name="label1.3_test">Time for response</string>
+    <string name="description1_test">In the test mode, the child works on materials marked in the MATERIAL tab.</string>
+    <string name="description2_test">
+The test mode does not use hints and reinforcements, the therapist should refrain from intervening in the interaction of the child until the end of the test.</string>
+    <string name="summary_test">Total number of tries in the test:</string>
+
+    <string name="tab5_save">Save</string>
+    <string name="label1.1_save">Step name</string>
+    <string name="label1.2_save">Information about the step</string>
+    <string name="label1_5_1">Different sexes below one command:</string>
+
+
+    <string name="emotion_happy">happy</string>
+    <string name="emotion_sad">sad</string>
+    <string name="emotion_surprised">surprised</string>
+    <string name="emotion_angry">angry</string>
+    <string name="emotion_scared">scared</string>
+    <string name="emotion_bored">bored</string>
+
+    <string name="emotion_happy_woman">happy</string>
+    <string name="emotion_sad_woman">sad</string>
+    <string name="emotion_surprised_woman">surprised</string>
+    <string name="emotion_angry_woman">angry</string>
+    <string name="emotion_scared_woman">scared</string>
+    <string name="emotion_bored_woman">bored</string>
+
+    <string name="emotion_happy_man">happy</string>
+    <string name="emotion_sad_man">sad</string>
+    <string name="emotion_surprised_man">surprised</string>
+    <string name="emotion_angry_man">angry</string>
+    <string name="emotion_scared_man">scared</string>
+    <string name="emotion_bored_man">bored</string>
+
+
+
+    <string name="sex">Photo of:</string>
+
+    <string-array name="emotions_array">
+        <item>happy</item>
+        <item>sad</item>
+        <item>surprised</item>
+        <item>angry</item>
+        <item>scared</item>
+        <item>bored</item>
+    </string-array>
+
+    <string-array name="emotions_array_woman">
+        <item>happy</item>
+        <item>sad</item>
+        <item>surprised</item>
+        <item>angry</item>
+        <item>scared</item>
+        <item>bored</item>
+    </string-array>
+
+    <string-array name="emotions_array_man">
+        <item>happy</item>
+        <item>sad</item>
+        <item>surprised</item>
+        <item>angry</item>
+        <item>scared</item>
+        <item>bored</item>
+    </string-array>
+
+
+    <string-array name="praise_array">
+        <item>good</item>
+        <item>super</item>
+        <item>excellent</item>
+        <item>extra</item>
+        <item>great</item>
+    </string-array>
+
+    <string-array name="sex">
+        <item>a woman</item>
+        <item>a man</item>
+        <item>an icon</item>
+
+    </string-array>
+
+    <string name="label2_sexes">Gender differentation</string>
+
+    <string name="InPhoto">Emotion:</string>
+
+    <string name="commandWarning">Choose at least one command type</string>
+    <string name="every_emotion_one_photo_warning_material">Choose at least one picture in the MATERIAL tab for emotion:</string>
+    <string name="every_emotion_one_photo_warning_test">Choose at least one picture in the TEST tab for emotion:</string>
+    <string name="different_sexes_warning">Define gender differentation</string>
+    <string name="empty_photos_learn_mode">Choose photos in the MATERIAL tab</string>
+    <string name="empty_photos_test_mode">Choose photos in the TEST tab</string>
+
+    <string name="level_name_validation_too_long">Name of the level should be shorter - max 55 characters</string>
+    <string name="level_name_validation_too_short">Name of the level should contain at least one character</string>
+
+    <string name="both_sexes_material">Photos in the MATERIAL tab should represent people of both genders</string>
+    <string name="both_sexes_test">Photos in the TEST tab should represent people of both genders</string>
+    <string name="less_photos_than_chosen_amount_female_learn">LEARN MODE: Unless you select at least one female photograph for this number of different emotions, smaller number of photographs will be displayed on the screen. Are you willing to save?</string>
+    <string name="less_photos_than_chosen_amount_male_learn">LEARN MODE: Unless you select at least one female photograph for this number of different emotions, smaller number of photographs will be displayed on the screen. Are you willing to save?</string>
+
+    <string name="chosen_amount">Chosen amount of photographs displayed: </string>
+
+    <string name="less_photos_than_chosen_amount_female_test">TEST MODE: Unless you select at least one female photograph for this number of different emotions, smaller number of photographs will be displayed on the screen. Are you willing to save?</string>
+    <string name="less_photos_than_chosen_amount_male_test">TEST MODE: Unless you select at least one female photograph for this number of different emotions, smaller number of photographs will be displayed on the screen. Are you willing to save?</string>
+
+    <string name="empty_test_photos">Select photos in the TEST tab</string>
+
+    <string name="insufficient_photos">Insufficient photographs chosen</string>
+    <string name="choose_more_photos">No, I want to choose more photos.</string>
+    <string name="save">Yes, save.</string>
+
+
+
+</resources>
+

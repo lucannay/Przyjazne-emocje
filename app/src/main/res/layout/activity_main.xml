@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="friendlyapps.animationsloader.MainActivity"
+    tools:layout_editor_absoluteY="89dp">
+
+
+    <ListView
+        android:id="@+id/itemListView"
+        android:layout_width="0dp"
+        android:layout_height="443dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginRight="57dp"
+        app:layout_constraintEnd_toStartOf="@+id/newList"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/newList"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginRight="137dp"
+        android:layout_marginBottom="23dp"
+        app:layout_constraintBottom_toTopOf="@+id/checkBoxUP_DOWN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/itemListView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="47dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginBottom="44dp"
+        android:onClick="restoreDefaultStorage"
+        android:text="@string/restore_default"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBoxUP_DOWN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vertical"
+        android:visibility="invisible"
+        app:layout_constraintBaseline_toBaselineOf="@+id/checkBoxLEFT_TO_RIGHT"
+        app:layout_constraintStart_toStartOf="@+id/newList" />
+
+    <CheckBox
+        android:id="@+id/checkBoxLEFT_TO_RIGHT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:text="@string/horizontal"
+        android:visibility="invisible"
+        app:layout_constraintBaseline_toBaselineOf="@+id/checkBoxSPIRAL"
+        app:layout_constraintStart_toEndOf="@+id/checkBoxUP_DOWN" />
+
+    <CheckBox
+        android:id="@+id/checkBoxSPIRAL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="46dp"
+        android:text="@string/spiral"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/checkBoxLEFT_TO_RIGHT" />
+
+</android.support.constraint.ConstraintLayout>

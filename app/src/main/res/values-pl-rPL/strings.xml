@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="restore_default">Domyślne</string>
+    <string name="animationName">Przyjazne Animacje</string>
+    <string name="horizontal">POZIOMO</string>
+    <string name="vertical">PIONOWO</string>
+    <string name="spiral">SPIRALA</string>
+    <string name="category_name_butterflies">Motyle</string>
+    <string name="category_name_cars">Samochody</string>
+    <string name="category_name_trains">Pociągi</string>
+    <string name="category_name_balls">Piłki</string>
+    <string name="category_name_ships">Statki</string>
+    <string name="category_name_custom">Twoje</string>
+    <string name="category_name_suns">Słońca</string>
+    <string name="confirm_question">Na pewno usunąć?</string>
+    <string name="confirm_yes">Tak</string>
+    <string name="confirm_no">Nie</string>
+</resources>

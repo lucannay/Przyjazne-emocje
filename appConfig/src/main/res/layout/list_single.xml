@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:id="@+id/list_item_string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="8dp"
+        android:textSize="18sp"
+        android:textColor="@color/colorTextBack"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:src="@drawable/icon_delete"
+        android:scaleType="fitXY"
+        android:background="@null"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        android:id="@+id/delete_btn"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp" />
+
+    <ImageButton
+        android:src="@drawable/icon_edit"
+        android:scaleType="fitXY"
+        android:background="@null"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        android:id="@+id/edit_btn"
+        android:layout_toLeftOf="@id/delete_btn"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp" />
+
+
+    <RadioButton
+        android:id="@+id/mode_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/edit_btn"
+        android:layout_marginRight="40dp"
+        android:layout_toStartOf="@+id/edit_btn"
+        android:layout_toLeftOf="@+id/edit_btn"
+        android:paddingEnd="20dp"
+        android:textColor="@color/colorTextBack" />
+
+    <RadioButton
+        android:id="@+id/mode_learn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/edit_btn"
+        android:layout_marginRight="135dp"
+        android:layout_toStartOf="@+id/edit_btn"
+        android:layout_toLeftOf="@+id/edit_btn"
+        android:paddingEnd="20dp"
+        android:textColor="@color/colorTextBack" />
+
+</RelativeLayout>

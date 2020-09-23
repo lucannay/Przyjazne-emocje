@@ -1,0 +1,18 @@
+<resources>
+    <string name="restore_default">Default</string>
+    <string name="animationName">Friendly Animations</string>
+    <string name="horizontal">HORIZONTAL</string>
+    <string name="vertical">VERTICAL</string>
+    <string name="spiral">SPIRAL</string>
+    <string name="category_name_butterflies">Butterflies</string>
+    <string name="category_name_cars">Cars</string>
+    <string name="category_name_trains">Trains</string>
+    <string name="category_name_balls">Balls</string>
+    <string name="category_name_ships">Ships</string>
+    <string name="category_name_custom">Custom</string>
+    <string name="category_name_suns">Suns</string>
+    <string name="category_name_planes">Planes</string>
+    <string name="confirm_question">Are you sure?</string>
+    <string name="confirm_yes">Yes</string>
+    <string name="confirm_no">No</string>
+</resources>

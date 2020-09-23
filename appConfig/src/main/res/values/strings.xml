@@ -1,0 +1,234 @@
+<resources>
+    <string name="intro_FriendlyEmotions">Przyjazne Emocje Ustawienia</string>
+    <string name="intro_short">Rozpoznawanie emocji na podstawie zdjęć i ikon - konfiguracja</string>
+    <string name="intro_description">Aplikacje powstają w ramach wspólnego projektu \"non-profit\" i \"open-source\"
+        \nPolitechniki Gdańskiej i fundacji Instytut Wspomagania Rozwoju Dziecka w Gdańsku (http://iwrd.pl/).
+        \nIWRD, Politechnika Gdańska, ani żaden uczestnik projektu nie odnosi korzyści materialnych z udziału w wytwarzaniu aplikacji.
+        \nWięcej informacji na stronie: https://tiapps.org/</string>
+    <string name="intro_instruction">Do poprawnego działania potrzebna jest para aplikacji: Przyjazne Emocje i Przyjazne Emocje Ustawienia!</string>
+
+    <string name="activityChoice_configurations">KONFIGURACJE</string>
+    <string name="activityChoice_material">DODAJ MATERIAŁY</string>
+    <string name="takeAPhoto">Zrób zdjęcie :)</string>
+
+    <string name="newPhoto">Zrób nowe</string>
+    <string name="label_choose_images">Wybierz</string>
+    <string name="title_choose_img">Tryb Testu - Wybierz obrazy</string>
+    <string name="default_message">Nie wybrano obrazów</string>
+    <string name="default_level_generate_message">Wygenerowano domyślny krok dla wesoły i smutny</string>
+    <string name="save_message">Zapisano krok</string>
+    <string name="select">wybrano</string>
+    <string name="pv_per_level">Obrazy na poziom</string>
+    <string name="time_limit">Limit czasu</string>
+    <string name="label_emotion">Uczone emocje:</string>
+    <string name="level_name">Nowy krok</string>
+    <string name="label_level_name">Nazwa kroku: </string>
+    <string name="label_level_list">Lista poziomów: </string>
+    <string name="active">aktywny </string>
+    <string name="amountOfAllowedTriesForEachEmotion">Poprawność</string>
+    <string name="sublevelsPerEachEmotion">Podpoziomy</string>
+    <string name="language_choice">Wybierz język:</string>
+    <string name="level_easy_photos">Wesoły/smutny ZDJĘCIA</string>
+    <string name="level_easy_icons">Wesoły/smutny IKONY</string>
+    <string name="level_medium">Wesoły/smutny/przestraszony/zły</string>
+    <string name="level_hard">Wesoły/smutny/przestraszony/zły/znudzony/zdziwiony</string>
+    <string name="selected_language">Język już wybrany!</string>
+    <string name="app">Uśmiechnij się :)</string>
+    <string name="hide_levels">Ukryj poziomy domyślne</string>
+
+
+    <array name="spinner">
+        <item>Zdjęcia</item>
+        <item>Filmy</item>
+    </array>
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    <string name="app_name">Przyjazne Emocje Ustawienia</string>
+    <string name="next">dalej</string>
+    <string name="back">wstecz</string>
+
+    <string name="testMode">TRYB TESTU</string>
+    <string name="learnMode">TRYB NAUKI</string>
+    <string name="seconds"> sekund </string>
+    <string name="after_seconds"> sekundach </string>
+
+    <string name="activate">AKTYWUJ POZIOM, KTÓRY MA OBOWIĄZYWAĆ W GRZE</string>
+
+    <string name="generated_name">Nazwa została zaktualizowana - sprawdź czy zmiana jest odpowiednia w zakładce ZAPISZ</string>
+    <string name="check_name">Sprawdź czy nazwa nie powinna zostać zaktualizowana</string>
+    <string name="duplicated_name">Taka nazwa kroku już istnieje, zmień ją</string>
+    <string name="level_removal">Usunięcie poziomu</string>
+    <string name="confirm_removal">Czy na pewno usunąć poziom?</string>
+    <string name="cancel_removal">Nie, nie usuwaj.</string>
+    <string name="ok_removal">Tak, usuń.</string>
+
+    <string name="test_no_photos">Liczba wybranych zdjęć: </string>
+    <string name="test_time_for_answer">Czas na udzielenie odpowiedzi: </string>
+    <string name="test_tries">Liczba prób:</string>
+
+    <string name="save_and_exit">Zapisz i wyjdź</string>
+    <string name="picture_activity_delete">Usuń zdjęcie</string>
+    <string name="picture_activity_another">Zapisz i zrób kolejne zdjęcie</string>
+    <string name="camera_activity_take_photo">Zrób zdjęcie</string>
+    <string name="camera_activity_switch_camera">Odwróć aparat</string>
+    <string name="camera_activity_exit">Wyjdź</string>
+
+    <string name="tab1_material">Materiał</string>
+    <string name="label0_material">Liczba wybranych zdjęć: </string>
+    <string name="label1_material">Liczba uczonych emocji: </string>
+    <string name="label2_material">Uczone emocje: </string>
+
+    <string name="tab2_learning_ways">Sposoby uczenia</string>
+    <string name="label1_learning_ways">Ustawienia próby</string>
+    <string name="label1_1_learning_ways">Liczba zdjęć wyświetlanych na ekranie: </string>
+    <string name="label1_2_learning_ways">Liczba powtórzeń dla każdej emocji: </string>
+    <string name="label2_learning_ways">Ustawienia kroku</string>
+    <string name="label2_1_learning_ways">Rodzaj polecenia: </string>
+    <string-array name="spinner_command">
+        <item>[Nazwa emocji]</item>
+        <item>Pokaż [Nazwa emocji]</item>
+        <item>Pokaż gdzie jest [Nazwa emocji]</item>
+    </string-array>
+
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+    <string name="label2_0_learning_ways_opcja1">Ta sama płeć w zestawie odpowiedzi</string>
+    <string name="label2_0_learning_ways_opcja2">Mieszana płeć w zestawie odpowiedzi</string>
+    <string name="label2_2_learning_ways">Czytanie polecenia: </string>
+    <string name="label2_3_learning_ways">Rozróżnianie płci</string>
+    <string name="label2_4_learning_ways">Pokaż podpowiedź po:  </string>
+    <string name="label2_5_learning_ways">Wybierz rodzaj podpowiedzi</string>
+    <string name="label2_6_learning_ways">Podpowiedzi: </string>
+    <string name="prompt_type1">Obramuj poprawną</string>
+    <string name="prompt_type2">Powiększ poprawną</string>
+    <string name="prompt_type3">Porusz poprawną</string>
+    <string name="prompt_type4">Wyszarz niepoprawne</string>
+
+    <string name="tab3_consolidation">Wzmocnienie</string>
+    <string name="label1_consolidation">Pochwały słowne: </string>
+    <string name="label1.1_consolidation">Wpisz nową pochwałę...</string>
+    <string name="button1_consolidation">Zaznacz wszystkie</string>
+
+    <string name="tab4_test">Test</string>
+    <string name="label1.1_test">Aktywne materiały</string>
+    <string name="the_same_material">Chcę korzystać z tych samych zdjęć co w zakładce MATERIAŁ</string>
+    <string name="the_same_material_info">Wskaż materiały, które mają zostać zastosowane w trybie testu."</string>
+    <string name="the_same_material_btn">Wybierz</string>
+    <string name="label1.2_test">Liczba prób dla każdej emocji</string>
+    <string name="label1.3_test">Czas na udzielenie odpowiedzi</string>
+    <string name="description1_test">W trybie testu dziecko pracuje na materiałach zaznaczonych w zakładce MATERIAŁ.</string>
+    <string name="description2_test">W trybie testu nie używa się podpowiedzi i wzmocnień, a terapeuta powinien powstrzymać się od interwencji w interakcje dziecka aż do zakończenia testu.</string>
+    <string name="summary_test">Łączna liczba prób w teście:</string>
+
+    <string name="tab5_save">Zapisz</string>
+    <string name="label1.1_save">Nazwa kroku</string>
+    <string name="label1.2_save">Informacje o kroku</string>
+    <string name="label1_5_1">Różne odmiany emocji pod poleceniem:</string>
+
+
+    <string name="emotion_happy">wesoły</string>
+    <string name="emotion_sad">smutny</string>
+    <string name="emotion_surprised">zdziwiony</string>
+    <string name="emotion_angry">zły</string>
+    <string name="emotion_scared">przestraszony</string>
+    <string name="emotion_bored">znudzony</string>
+
+
+    <string name="emotion_happy_woman">wesoła</string>
+    <string name="emotion_sad_woman">smutna</string>
+    <string name="emotion_surprised_woman">zdziwiona</string>
+    <string name="emotion_angry_woman">zła</string>
+    <string name="emotion_scared_woman">przestraszona</string>
+    <string name="emotion_bored_woman">znudzona</string>
+
+
+    <string name="emotion_happy_man">wesoły</string>
+    <string name="emotion_sad_man">smutny</string>
+    <string name="emotion_surprised_man">zdziwiony</string>
+    <string name="emotion_angry_man">zły</string>
+    <string name="emotion_scared_man">przestraszony</string>
+    <string name="emotion_bored_man">znudzony</string>
+
+
+
+    <string name="sex">Zdjęcie:</string>
+
+
+    <string name="InPhoto">Emocja:</string>
+
+    <string-array name="emotions_array">
+        <item>wesoły</item>
+        <item>smutny</item>
+        <item>zdziwiony</item>
+        <item>zły</item>
+        <item>przestraszony</item>
+        <item>znudzony</item>
+    </string-array>
+    <string name="show">Pokaż  </string>
+    <string name="find">  Znajdź </string>
+    <string name="touch">Dotknij </string>
+    <string name="point">Wskaż </string>
+    <string name="selectConf">Wybierz</string>
+    <string name="test_mode">Tryb Testu</string>
+    <string name="learn_mode">Tryb Nauki</string>
+
+    <string-array name="emotions_array_man">
+        <item>wesoły</item>
+        <item>smutny</item>
+        <item>zdziwiony</item>
+        <item>zły</item>
+        <item>przestraszony</item>
+        <item>znudzony</item>
+    </string-array>
+    <string-array name="emotions_array_woman">
+        <item>wesoła</item>
+        <item>smutna</item>
+        <item>zdziwiona</item>
+        <item>zła</item>
+        <item>przestraszona</item>
+        <item>znudzona</item>
+    </string-array>
+
+    <string-array name="praise_array">
+        <item>dobrze</item>
+        <item>super</item>
+        <item>świetnie</item>
+        <item>ekstra</item>
+        <item>wspaniale</item>
+    </string-array>
+
+    <string-array name="sex">
+        <item>kobiety</item>
+        <item>mężczyzny</item>
+        <item>ikony</item>
+
+    </string-array>
+
+    <string name="label2_sexes">Rozróżnienie płci</string>
+    <string name="commandWarning">Wybierz conajmniej jeden rodzaj polecenia</string>
+    <string name="every_emotion_one_photo_warning_material">Wybierz conajmniej jedno zdjęcie w zakładce MATERIAŁ dla emocji:</string>
+    <string name="every_emotion_one_photo_warning_test">Wybierz conajmniej jedno zdjęcie w zakładce TEST dla emocji:</string>
+    <string name="different_sexes_warning">Określ rozróżnienie płci</string>
+    <string name="empty_photos_learn_mode">Wybierz zdjęcia w zakładce MATERIAŁ</string>
+    <string name="empty_photos_test_mode">Wybierz zdjęcia w zakładce TEST</string>
+    <string name="level_name_validation_too_long">Nazwa poziomu powinna być krótsza - maksymalnie 55 znaków</string>
+    <string name="level_name_validation_too_short">Nazwa poziomu powinna zawierać conajmniej jeden znak</string>
+    <string name="both_sexes_material">Zdjęcia w zakładce MATERIAŁ powinny przedstawiać osoby obydwu płci</string>
+    <string name="both_sexes_test">Zdjęcia w zakładce TEST powinny przedstawiać osoby obydwu płci</string>
+    <string name="chosen_amount">Wybrana liczba zdjęć wyświetlanych na ekranie to: </string>
+
+    <string name="less_photos_than_chosen_amount_female_test">TRYB TESTU: Jeśli nie wybierzesz po conajmniej jednym zdjęciu kobiety dla takiej liczby różnych emocji, na ekranie zostanie wyświetlona mniejsza liczba zdjęć. Czy na pewno zapisać?</string>
+    <string name="less_photos_than_chosen_amount_male_test">TRYB TESTU: Jeśli nie wybierzesz po conajmniej jednym zdjęciu mężczyzny dla takiej liczby różnych emocji, na ekranie zostanie wyświetlona mniejsza liczba zdjęć. Czy na pewno zapisać?</string>
+    <string name="less_photos_than_chosen_amount_female_learn">TRYB NAUKI: Jeśli nie wybierzesz po conajmniej jednym zdjęciu kobiety dla takiej liczby różnych emocji, na ekranie zostanie wyświetlona mniejsza liczba zdjęć. Czy na pewno zapisać?</string>
+    <string name="less_photos_than_chosen_amount_male_learn">TRYB NAUKI: Jeśli nie wybierzesz po conajmniej jednym zdjęciu mężczyzny dla takiej liczby różnych emocji, na ekranie zostanie wyświetlona mniejsza liczba zdjęć. Czy na pewno zapisać?</string>
+
+    <string name="empty_test_photos">Wybierz zdjęcia w zakładce TEST</string>
+
+    <string name="insufficient_photos">Niewystarczająca liczba wybranych zdjęć</string>
+    <string name="choose_more_photos">Nie, chcę wybrać więcej zdjęć.</string>
+    <string name="save">Tak, zapisz.</string>
+
+
+
+
+</resources>

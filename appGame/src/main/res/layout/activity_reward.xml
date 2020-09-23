@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_reward"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/rewardOrHintText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp"
+
+        android:fontFamily="sans-serif-medium"
+        android:foregroundGravity="clip_horizontal"
+        android:gravity="center_horizontal"
+        android:text="Brawo!"
+        android:textColor="#FBF8F8"
+        android:textSize="70dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/correctAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="60dp"
+        android:foregroundGravity="center_vertical|center_horizontal"
+        android:maxWidth="400sp"
+        android:maxHeight="400dp"
+        android:minWidth="300dp"
+        android:minHeight="300dp"
+        android:scaleType="centerInside" />
+
+
+</LinearLayout>
