@@ -29,7 +29,12 @@ public class AnimationActivity extends Activity implements Animation.AnimationLi
         createView();
         anim.setAnimationListener(this);
         Random rnd = new Random();
+
+        //colour of reward/hint and animations view
         int color = Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256));
+        while (color == Color.WHITE){
+            color = Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256));
+        }
 
 
         RelativeLayout myLayout = (RelativeLayout) findViewById(R.id.activity_menu);
