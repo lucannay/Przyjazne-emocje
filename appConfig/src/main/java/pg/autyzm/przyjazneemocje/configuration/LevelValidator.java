@@ -19,6 +19,7 @@ import pg.autyzm.przyjazneemocje.R;
 import pg.autyzm.przyjazneemocje.lib.SqliteManager;
 import pg.autyzm.przyjazneemocje.lib.entities.Level;
 
+//validations before saving the configuration view
 
 public class LevelValidator extends AppCompatActivity {
 

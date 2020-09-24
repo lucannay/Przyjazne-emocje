@@ -1,11 +1,5 @@
 package pg.autyzm.przyjazneemocje.adapter;
 
-import android.app.Activity;
-import android.app.AlertDialog;
-import android.content.Context;
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -47,6 +41,7 @@ public class CustomList extends BaseAdapter implements ListAdapter {
         return 0;
     }
 
+    // view of levels list
     @Override
     public View getView(final int position, View convertView, ViewGroup parent) {
         View view = convertView;

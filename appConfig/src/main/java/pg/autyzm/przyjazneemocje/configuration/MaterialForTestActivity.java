@@ -28,6 +28,8 @@ import pg.autyzm.przyjazneemocje.lib.entities.Level;
 
 import static pg.autyzm.przyjazneemocje.lib.SqliteManager.getInstance;
 
+//choice of pictures for test mode (when checkbox "I want to use the same pictures as in MATERIAL tab" is not checked)
+
 public class MaterialForTestActivity extends AppCompatActivity {
 
     private Level level;

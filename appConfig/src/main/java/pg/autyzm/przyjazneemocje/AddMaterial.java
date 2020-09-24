@@ -14,13 +14,14 @@ import android.widget.TextView;
 
 import pg.autyzm.przyjazneemocje.camera.MainCameraActivity;
 
+//view for adding a picture
 public class AddMaterial extends AppCompatActivity {
     private final int REQ_CODE_CAMERA = 1000;
     public String emocja;
     private int sumOfAnother = 0;
     private TextView takePhoto;
 
-
+//selecting parameters of the picture
     AdapterView.OnItemSelectedListener emotionSelectedListener = new AdapterView.OnItemSelectedListener() {
         @Override
         public void onItemSelected(AdapterView<?> arg0, View arg1, int arg2,

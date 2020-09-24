@@ -18,6 +18,8 @@ import android.widget.Toast;
 import pg.autyzm.graprzyjazneemocje.animation.AnimationEndActivity;
 import pg.autyzm.przyjazneemocje.lib.entities.Level;
 
+//screen with summary of results
+
 public class EndActivity extends Activity {
     public static int getRepeat() {
         return repeat;
@@ -89,7 +91,7 @@ public class EndActivity extends Activity {
 
 
         repeat = 0;
-
+//repeat a level
         Button prevButton = (Button) findViewById((R.id.prevButton));
         prevButton.setBackgroundResource(R.drawable.prev_button_text);
         prevButton.setText(getResources().getString(R.string.prevButton));
@@ -102,6 +104,7 @@ public class EndActivity extends Activity {
             }
         });
 
+        //go to main view of configuration module
         Button mainMenuButton = (Button) findViewById((R.id.mainMenuButton));
         mainMenuButton.setBackgroundResource(R.drawable.prev_button_text);
         mainMenuButton.setText(getResources().getString(R.string.mainMenuButton));

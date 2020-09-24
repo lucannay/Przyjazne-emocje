@@ -19,7 +19,7 @@ import java.util.Locale;
 import pg.autyzm.przyjazneemocje.lib.SqliteManager;
 
 import static pg.autyzm.przyjazneemocje.lib.SqliteManager.getInstance;
-
+//screen aneabling choice of activities (going to configurations or adding a picture view)
 public class ActivityChoice extends AppCompatActivity {
 
 

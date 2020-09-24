@@ -46,6 +46,7 @@ import pg.autyzm.przyjazneemocje.lib.entities.Level;
 
 import static pg.autyzm.przyjazneemocje.lib.SqliteManager.getInstance;
 
+//configurations view
 
 public class LevelConfigurationActivity extends AppCompatActivity {
 
@@ -294,6 +295,7 @@ public class LevelConfigurationActivity extends AppCompatActivity {
         activateNumberTimeTest();
         activateNumberOfTriesInTest();
 
+        //should pictures for test mode be chosen seperately
         CheckBox materialLikeLearn = (CheckBox) findViewById(R.id.theSameMaterial);
         materialLikeLearn.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override

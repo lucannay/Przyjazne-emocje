@@ -161,6 +161,7 @@ public class MainActivity extends AppCompatActivity {
 
         sqlm.AddDefaultLevelsIfNeeded();
 
+        //uruchomienie aplikacji "Uśmiechnij się"
         Button smile = (Button) findViewById(R.id.uruchomSmileButton);
         smile.setOnClickListener(new View.OnClickListener() {
 
@@ -177,6 +178,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //Uruchomienie aplikacji gry
         Button play = (Button) findViewById(R.id.game);
         play.setBackgroundResource(R.drawable.game2);
 

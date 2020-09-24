@@ -4,7 +4,7 @@ import android.content.Context;
 import android.speech.tts.TextToSpeech;
 
 import java.util.Locale;
-
+//not used
 public class Speaker {
     private final TextToSpeech textToSpeech;
     private final Context currentContext;

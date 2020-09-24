@@ -286,13 +286,10 @@ public class MainActivity extends Activity implements View.OnClickListener, ISou
             String sex = (goodAnswer.contains("_man")) ? "_man" : "woman";
             selectPhotoWithNotSelectedEmotions(level.getPhotosOrVideosShowedForOneQuestion(), sex);
         }
-
-        // laczymy dobra odpowiedz z reszta wybranych zdjec i przekazujemy to dalej
+        // we connect correct picture with the rest of pictures (that will be displayed in the sublevel)
         photosToUseInSublevel.add(goodAnswer);
 
         java.util.Collections.shuffle(photosToUseInSublevel);
-
-        // z tego co rozumiem w photosList powinny byc name wszystkich zdjec, jakie maja sie pojawic w lvl (czyli - 3 pozycje)
 
 
         if (level.isLearnMode()) {

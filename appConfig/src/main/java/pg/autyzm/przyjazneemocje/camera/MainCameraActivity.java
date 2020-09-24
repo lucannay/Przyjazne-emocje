@@ -47,6 +47,7 @@ public class MainCameraActivity extends AppCompatActivity {
         startActivity(backToMenu);
     }
 
+//camera view (with possible actions - take a picture, switch camera, exit)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

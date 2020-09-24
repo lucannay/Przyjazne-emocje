@@ -5,7 +5,7 @@ import android.app.Activity;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
-
+//not used
 public class LevelFailedActivity extends Activity {
 
     @Override

@@ -7,6 +7,8 @@ import android.support.annotation.Nullable;
 import android.view.Window;
 import android.view.WindowManager;
 
+//blank view
+
 public class Blank extends Activity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

@@ -23,6 +23,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+//reward and hint activities displayed after correct answer
 public class RewardAndHintActivity extends Activity implements ISounds {
     MediaPlayer ring;
     String speakerText;

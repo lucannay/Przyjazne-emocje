@@ -2,7 +2,7 @@ package pg.autyzm.graprzyjazneemocje;
 
 import android.app.Activity;
 
-
+//not used - for future versions
 public class VideoWelcomeActivity extends Activity {
 
    /* ]@Override

@@ -55,7 +55,6 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
         try {
             mHolder.setFixedSize(mCamera.getParameters().getPictureSize().width, mCamera.getParameters().getPictureSize().height);
             //mHolder.setFixedSize(300,100);
-            System.out.println("bbbbbbbAAAAAAA WIDTH " + mCamera.getParameters().getPictureSize().width + " HEIGHT " + mCamera.getParameters().getPictureSize().height);
             mCamera.setPreviewDisplay(mHolder);
             mCamera.startPreview();
         } catch (Exception e) {
